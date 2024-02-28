@@ -7,7 +7,6 @@ class Manchester(AbsObserver):
 
     flight_manifest = {"Luton": "BA005", "Paris": "PAR55"}
 
-
     def __init__(self, weather_warning):
         self._weather_warning = weather_warning
         weather_warning.attach(self)
